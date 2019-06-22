@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <Button
+        android:id="@+id/mainF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="ANA EKRAN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/blueF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#00B0FF"
+        android:text="MAVİ EKRAN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/redF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FF1744"
+        android:text="KIRMIZI EKRAN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/yellowF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFC400"
+        android:text="SARI EKRAN"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
